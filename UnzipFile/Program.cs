@@ -20,7 +20,7 @@ namespace UnzipFile
                     {
                         try
                         {
-                            ZipFile zip5 = ZipFile.Read(@"C:\temp\test2.zip");
+                            ZipFile zip5 = ZipFile.Read(@"D:\temp\PL080727_01.zip");
                             Console.WriteLine("titi");
                             using (ZipFile zip1 = ZipFile.Read(pathFile))
                             {

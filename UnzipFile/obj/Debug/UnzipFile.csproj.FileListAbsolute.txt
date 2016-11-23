@@ -4,3 +4,4 @@ c:\users\jsimon\documents\visual studio 2013\Projects\UnzipFile\UnzipFile\bin\De
 c:\users\jsimon\documents\visual studio 2013\Projects\UnzipFile\UnzipFile\obj\Debug\UnzipFile.csprojResolveAssemblyReference.cache
 c:\users\jsimon\documents\visual studio 2013\Projects\UnzipFile\UnzipFile\obj\Debug\UnzipFile.exe
 c:\users\jsimon\documents\visual studio 2013\Projects\UnzipFile\UnzipFile\obj\Debug\UnzipFile.pdb
+C:\Users\jsimon\Documents\Visual Studio 2013\Projects\UnzipFile\UnzipFile\bin\Debug\UnzipFile.exe.config
