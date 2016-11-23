@@ -32,7 +32,7 @@ namespace UnzipFile
                                     e.Extract(pathDest, ExtractExistingFileAction.OverwriteSilently);
                                 }
                             }
-                        }
+                        }//
                         catch (Exception err)
                         {
                             Console.WriteLine(err.Message);
