@@ -20,11 +20,8 @@ namespace UnzipFile
                     {
                         try
                         {
-                            ZipFile zip5 = ZipFile.Read(@"D:\temp\PL080727_01.zip");
-                            Console.WriteLine("titi");
                             using (ZipFile zip1 = ZipFile.Read(pathFile))
                             {
-                                Console.WriteLine("toto");
                                 ZipFile zip = ZipFile.Read(pathFile);
                                 Directory.CreateDirectory(pathDest);
                                 foreach (ZipEntry e in zip)
