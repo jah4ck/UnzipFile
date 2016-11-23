@@ -1,0 +1,6 @@
+c:\users\jsimon\documents\visual studio 2013\Projects\UnzipFile\UnzipFile\bin\Debug\UnzipFile.exe
+c:\users\jsimon\documents\visual studio 2013\Projects\UnzipFile\UnzipFile\bin\Debug\UnzipFile.pdb
+c:\users\jsimon\documents\visual studio 2013\Projects\UnzipFile\UnzipFile\bin\Debug\Ionic.Zip.dll
+c:\users\jsimon\documents\visual studio 2013\Projects\UnzipFile\UnzipFile\obj\Debug\UnzipFile.csprojResolveAssemblyReference.cache
+c:\users\jsimon\documents\visual studio 2013\Projects\UnzipFile\UnzipFile\obj\Debug\UnzipFile.exe
+c:\users\jsimon\documents\visual studio 2013\Projects\UnzipFile\UnzipFile\obj\Debug\UnzipFile.pdb
