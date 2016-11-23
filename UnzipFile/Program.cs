@@ -10,26 +10,49 @@ namespace UnzipFile
     {
         static void Main(string[] args)
         {
-            string path=args[0];
-            string file = args[1];
-            if (path != null && path.Length>0)
+            string pathFile=args[0];
+            string pathDest = args[1];
+            if (pathFile != null && pathFile.Length > 0)
             {
-                if ((path + @"\" + file).Contains(".zip") || (path + @"\" + file).Contains(".rar"))
+                if (pathFile.Contains(".zip") || pathFile.Contains(".rar"))
                 {
-                    if (File.Exists((path + @"\" + file)))
+                    if (File.Exists(pathFile))
                     {
-                        using (ZipFile zip1 = ZipFile.Read(file))
+                        try
                         {
-                            ZipFile zip = ZipFile.Read(file);
-                            Directory.CreateDirectory(path);
-                            foreach (ZipEntry e in zip)
+                            ZipFile zip5 = ZipFile.Read(@"C:\temp\test2.zip");
+                            Console.WriteLine("titi");
+                            using (ZipFile zip1 = ZipFile.Read(pathFile))
                             {
-
-                                e.Extract(path, ExtractExistingFileAction.OverwriteSilently);
+                                Console.WriteLine("toto");
+                                ZipFile zip = ZipFile.Read(pathFile);
+                                Directory.CreateDirectory(pathDest);
+                                foreach (ZipEntry e in zip)
+                                {
+                                    e.Extract(pathDest, ExtractExistingFileAction.OverwriteSilently);
+                                }
                             }
                         }
+                        catch (Exception err)
+                        {
+                            Console.WriteLine(err.Message);
+                            Console.WriteLine(err.StackTrace);
+                            Console.WriteLine(pathFile);
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("Le fichier n'existe pas :" + pathFile);
                     }
                 }
+                else
+                {
+                    Console.WriteLine("Le fichier doit être un .zip ou .rar");
+                }
+            }
+            else
+            {
+                Console.WriteLine("le path est inccorect");
             }
         }
     }
