@@ -8,3 +8,6 @@ C:\Users\jsimon\Documents\Visual Studio 2013\Projects\UnzipFile\UnzipFile\bin\De
 E:\Visual Studio 2015\Projects\UnzipFile\UnzipFile\bin\Debug\UnzipFile.exe.config
 E:\Visual Studio 2015\Projects\UnzipFile\UnzipFile\obj\Debug\UnzipFile.exe
 E:\Visual Studio 2015\Projects\UnzipFile\UnzipFile\obj\Debug\UnzipFile.pdb
+E:\Visual Studio 2015\Projects\UnzipFile\UnzipFile\bin\Debug\UnzipFile.exe
+E:\Visual Studio 2015\Projects\UnzipFile\UnzipFile\bin\Debug\UnzipFile.pdb
+E:\Visual Studio 2015\Projects\UnzipFile\UnzipFile\obj\Debug\UnzipFile.csprojResolveAssemblyReference.cache
