@@ -14,7 +14,7 @@ namespace UnzipFile
             string pathDest = args[1];
             if (pathFile != null && pathFile.Length > 0)
             {
-                if (pathFile.Contains(".zip") || pathFile.Contains(".rar"))
+                if (pathFile.Contains(".zip"))
                 {
                     if (File.Exists(pathFile))
                     {
@@ -29,7 +29,7 @@ namespace UnzipFile
                                     e.Extract(pathDest, ExtractExistingFileAction.OverwriteSilently);
                                 }
                             }
-                        }//
+                        }
                         catch (Exception err)
                         {
                             Console.WriteLine(err.Message);
